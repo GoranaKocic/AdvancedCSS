@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery</title>
+
+<style>
+
+.gallery {
+max-width: 960px;
+width: 90%;
+margin: 0 auto;
+
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-gap: 20px;
+}
+.gallery {
+    display: inline-block;
+    border: 1px solid rgb(194, 188, 188);
+    margin: 20px;
+    border-radius: 5%;
+    width: 200px;
+}
+img {
+    background-color: aqua;
+}
+.gallery .Title {
+    padding: 5px;
+    text-align: center;
+}
+.gallery:hover {
+    border: 1px solid rgb(227, 6, 6);
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5% 5% 0 0;
+}
+@media screen and (max-width: 1024px) {
+.container {
+grid-template-columns: repeat(5, 1fr);
+}
+}
+
+@media screen and (max-width: 768px) {
+.container {
+grid-template-columns: repeat(3, 1fr);
+}
+}
+
+@media screen and (max-width: 414px) {
+.container {
+grid-template-columns: repeat(1, 1fr);
+}
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="header">Gallery Heading</div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="placeholder-image.png">
+            <img src="placeholder-image.png" alt="thumb">
+        </a>
+        <div class="Title">Image title</div>
+    </div>
+
+    <div class="footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. At reprehenderit necessitatibus consectetur natus totam repudiandae beatae, accusantium a modi aut id facere quo veritatis magni, maxime, nihil distinctio vel nam?</div>
+</div>
+</body>
+</html>
